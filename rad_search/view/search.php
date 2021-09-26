@@ -46,7 +46,7 @@
 
     <!-- (B) SEARCH FORM -->
     <div id="head">
-   <h2> User Details</h2>
+    <h2> User Details</h2>
 
     <form onsubmit="return doSearch()">
       <input type="text" id="search" placeholder="Enter name" required/>
@@ -54,15 +54,10 @@
       <br>
       <input id="button" type="submit" value="Search"/>
     </form>
-  </div>
+    </div>
     <!-- (C) SEARCH RESULTS -->
-<div id=output> </div>
-<div id=results> </div>
-<!-- //
+    <div id=output> </div>
+    <div id=results> </div>
 
-}
-?> -->
-</table>
-</div>
   </body>
 </html>
